@@ -1,0 +1,56 @@
+:root {
+  --app-bg-color:var(--bs-gray-800);
+  --app-text-color:rgba(236,236,241, 1);
+  --app-nav-bg-color:#444654;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--app-text-color);
+  background-color: var(--app-bg-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  padding-top:65px;
+  z-index: -1;
+}
+
+
+.navbar {
+  border-bottom: 1px solid var(--app-nav-bg-color);
+  background-color: var(--bs-gray-800); 
+  z-index: 100;
+}
+
+.navbar-brand {
+  color: var(--app-text-color);
+}
+
+.navbar-brand > span{
+  font-size:2rem;
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+  color: var(--app-text-color);
+}
+
+.footer {
+ background-color: var(--bs-gray-800); 
+ z-index: 100; 
+}
+
+
+.msg-background-user {
+  background-color: #444654;
+}
+
+.msg-background-agent {
+  background-color: var(--bs-gray-800);
+}
